@@ -1,0 +1,203 @@
+<resources>
+
+     <!-- Button Styles -->
+    <style name="btn_default">
+        <item name="android:background">@drawable/btn_bg_default_all</item>
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+        <item name="android:textColor">@color/btn_text_default</item>
+        <item name="android:gravity">center_vertical|center_horizontal</item>
+    </style>
+    <style name="btn_default_sm">
+        <item name="android:background">@drawable/btn_bg_default_all_sm</item>
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceSmall</item>
+        <item name="android:textColor">@color/btn_text_default</item>
+        <item name="android:gravity">center_vertical|center_horizontal</item>
+    </style>
+    <style name="btn_default_sq">
+        <item name="android:background">@drawable/btn_bg_default_all_sq</item>
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+        <item name="android:textColor">@color/btn_text_default</item>
+        <item name="android:gravity">center_vertical|center_horizontal</item>
+    </style>
+    <style name="btn_default_sm_sq">
+        <item name="android:background">@drawable/btn_bg_default_all_sm_sq</item>
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceSmall</item>
+        <item name="android:textColor">@color/btn_text_default</item>
+        <item name="android:gravity">center_vertical|center_horizontal</item>
+    </style>
+
+    <style name="btn_success">
+        <item name="android:background">@drawable/btn_bg_success_all</item>
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+        <item name="android:textColor">@color/btn_text_white</item>
+        <item name="android:gravity">center_vertical|center_horizontal</item>
+    </style>
+    <style name="btn_success_sm">
+        <item name="android:background">@drawable/btn_bg_success_all_sm</item>
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceSmall</item>
+        <item name="android:textColor">@color/btn_text_white</item>
+        <item name="android:gravity">center_vertical|center_horizontal</item>
+    </style>
+    <style name="btn_success_sq">
+        <item name="android:background">@drawable/btn_bg_success_all_sq</item>
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+        <item name="android:textColor">@color/btn_text_white</item>
+        <item name="android:gravity">center_vertical|center_horizontal</item>
+    </style>
+    <style name="btn_success_sm_sq">
+        <item name="android:background">@drawable/btn_bg_success_all_sm_sq</item>
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceSmall</item>
+        <item name="android:textColor">@color/btn_text_white</item>
+        <item name="android:gravity">center_vertical|center_horizontal</item>
+    </style>
+
+    <style name="btn_primary">
+        <item name="android:background">@drawable/btn_bg_primary_all</item>
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+        <item name="android:textColor">@color/btn_text_white</item>
+        <item name="android:gravity">center_vertical|center_horizontal</item>
+        <item name="android:padding">16dp</item>
+    </style>
+    <style name="btn_primary_sm">
+        <item name="android:background">@drawable/btn_bg_primary_all_sm</item>
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceSmall</item>
+        <item name="android:textColor">@color/btn_text_white</item>
+        <item name="android:gravity">center_vertical|center_horizontal</item>
+    </style>
+    <style name="btn_primary_sq">
+        <item name="android:background">@drawable/btn_bg_primary_all_sq</item>
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+        <item name="android:textColor">@color/btn_text_white</item>
+        <item name="android:gravity">center_vertical|center_horizontal</item>
+    </style>
+    <style name="btn_primary_sm_sq">
+        <item name="android:background">@drawable/btn_bg_primary_all_sm_sq</item>
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceSmall</item>
+        <item name="android:textColor">@color/btn_text_white</item>
+        <item name="android:gravity">center_vertical|center_horizontal</item>
+    </style>
+
+    <style name="btn_info">
+        <item name="android:background">@drawable/btn_bg_info_all</item>
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+        <item name="android:textColor">@color/btn_text_white</item>
+        <item name="android:gravity">center_vertical|center_horizontal</item>
+    </style>
+    <style name="btn_info_sm">
+        <item name="android:background">@drawable/btn_bg_info_all_sm</item>
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceSmall</item>
+        <item name="android:textColor">@color/btn_text_white</item>
+        <item name="android:gravity">center_vertical|center_horizontal</item>
+    </style>
+    <style name="btn_info_sq">
+        <item name="android:background">@drawable/btn_bg_info_all_sq</item>
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+        <item name="android:textColor">@color/btn_text_white</item>
+        <item name="android:gravity">center_vertical|center_horizontal</item>
+    </style>
+    <style name="btn_info_sm_sq">
+        <item name="android:background">@drawable/btn_bg_info_all_sm_sq</item>
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceSmall</item>
+        <item name="android:textColor">@color/btn_text_white</item>
+        <item name="android:gravity">center_vertical|center_horizontal</item>
+    </style>
+
+    <style name="btn_warning">
+        <item name="android:background">@drawable/btn_bg_warning_all</item>
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+        <item name="android:textColor">@color/btn_text_white</item>
+        <item name="android:gravity">center_vertical|center_horizontal</item>
+    </style>
+    <style name="btn_warning_sm">
+        <item name="android:background">@drawable/btn_bg_warning_all_sm</item>
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceSmall</item>
+        <item name="android:textColor">@color/btn_text_white</item>
+        <item name="android:gravity">center_vertical|center_horizontal</item>
+    </style>
+    <style name="btn_warning_sq">
+        <item name="android:background">@drawable/btn_bg_warning_all_sq</item>
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+        <item name="android:textColor">@color/btn_text_white</item>
+        <item name="android:gravity">center_vertical|center_horizontal</item>
+    </style>
+    <style name="btn_warning_sm_sq">
+        <item name="android:background">@drawable/btn_bg_warning_all_sm_sq</item>
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceSmall</item>
+        <item name="android:textColor">@color/btn_text_white</item>
+        <item name="android:gravity">center_vertical|center_horizontal</item>
+    </style>
+
+    <style name="btn_danger">
+        <item name="android:background">@drawable/btn_bg_danger_all</item>
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+        <item name="android:textColor">@color/btn_text_white</item>
+        <item name="android:gravity">center_vertical|center_horizontal</item>
+    </style>
+    <style name="btn_danger_sm">
+        <item name="android:background">@drawable/btn_bg_danger_all_sm</item>
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceSmall</item>
+        <item name="android:textColor">@color/btn_text_white</item>
+        <item name="android:gravity">center_vertical|center_horizontal</item>
+    </style>
+    <style name="btn_danger_sq">
+        <item name="android:background">@drawable/btn_bg_danger_all_sq</item>
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+        <item name="android:textColor">@color/btn_text_white</item>
+        <item name="android:gravity">center_vertical|center_horizontal</item>
+    </style>
+    <style name="btn_danger_sm_sq">
+        <item name="android:background">@drawable/btn_bg_danger_all_sm_sq</item>
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceSmall</item>
+        <item name="android:textColor">@color/btn_text_white</item>
+        <item name="android:gravity">center_vertical|center_horizontal</item>
+    </style>
+
+</resources>

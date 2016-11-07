@@ -3,6 +3,8 @@
     android:orientation="vertical"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
+    android:background="#aaaaaa"
+    android:padding="32dp"
     >
 <TextView
     android:id="@+id/introtext"
@@ -11,6 +13,7 @@
     android:text="Welcome to Madlibs, we are going to make a funny story you can edit. Please enter all the words in the next screen and you can have a proper laugh! Bring an extra pair of underpants just in case..."
     />
 <Button
+    style="@style/btn_primary"
     android:layout_height="wrap_content"
     android:layout_width="wrap_content"
     android:text="Start madlibbing!"

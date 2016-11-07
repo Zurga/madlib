@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <item name="actionbar_color" type="color">#f0ad4e</item>
+
+    <!--text colors-->
+    <item name="text_disabled" type="color">#ffa5a9a5</item>
+    <item name="btn_text_default" type="color">#0e0e0e</item>
+    <item name="btn_text_white" type="color">#fdfdfd</item>
+
+    <item name="btn_default_border" type="color">#00000000</item>
+
+    <!--active button state colors-->
+    <item name="btn_default" type="color">#00ffffff</item>
+    <item name="btn_primary" type="color">#428bca</item>
+    <item name="btn_success" type="color">#5cb85c</item>
+    <item name="btn_info" type="color">#5bc0de</item>
+    <item name="btn_warning" type="color">#f0ad4e</item>
+    <item name="btn_danger" type="color">#d9534f</item>
+
+    <!--pressed button state colors-->
+    <item name="btn_default_pressed" type="color">#22000000</item>
+    <item name="btn_primary_pressed" type="color">#ff4277b6</item>
+    <item name="btn_success_pressed" type="color">#ff509f50</item>
+    <item name="btn_info_pressed" type="color">#ff5995b2</item>
+    <item name="btn_warning_pressed" type="color">#ffc17e4e</item>
+    <item name="btn_danger_pressed" type="color">#ffae524e</item>
+
+    <!--inactive button state colors-->
+    <item name="btn_default_inactive" type="color">#2c000000</item>
+    <item name="btn_primary_inactive" type="color">#82b1da</item>
+    <item name="btn_success_inactive" type="color">#93ce93</item>
+    <item name="btn_info_inactive" type="color">#92d3e7</item>
+    <item name="btn_warning_inactive" type="color">#f3c584</item>
+    <item name="btn_danger_inactive" type="color">#e38784</item>
+
+</resources>

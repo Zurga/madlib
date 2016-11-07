@@ -3,12 +3,13 @@
     android:orientation="vertical"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
+    android:background="#aaaaaa"
+    android:padding="32dp"
     >
 <TextView
     android:id="@+id/wordsleft"
     android:layout_width="fill_parent"
     android:layout_height="wrap_content"
-    android:text=""
     />
 <EditText
     android:id="@+id/input"
@@ -18,12 +19,13 @@
     android:layout_toLeftOf="@+id/next_word"
     />
 <Button
+    style="@style/btn_primary"
     android:id="@id/next_word"
     android:layout_height="wrap_content"
     android:layout_width="wrap_content"
     android:text="Ok"
     android:onClick="nextWord"
-    android:layout_toRightOf="@id/input"
+    android:layout_toLeftOf="@id/input"
     />
 </LinearLayout>
 
