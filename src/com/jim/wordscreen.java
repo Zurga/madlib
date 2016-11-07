@@ -67,6 +67,11 @@ public class wordscreen extends Activity
                 story.fillInPlaceholder(word);
                 input.setText("");
             }
+            if (story.isFilledIn()){
+                Intent show_text = new Intent(context, showtext.class);
+                show_text.putExtra("text", story.toString());
+                startActivity(show_text);
+            }
             setRemainingWords(story.getPlaceholderRemainingCount());
             input.setHint(story.getNextPlaceholder());
         }
