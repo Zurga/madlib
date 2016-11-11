@@ -19,6 +19,7 @@ public class wordscreen extends Activity
     /** Called when the activity is first created. */
     private Story story;
     private static final String TAG = "Wordscreen";
+    private int story_idx;
 
     @Override
     public void onCreate(Bundle savedInstanceState)
@@ -33,7 +34,13 @@ public class wordscreen extends Activity
             R.raw.madlib3_clothes,
             R.raw.madlib4_dance,
         };
-        int story_idx = new Random().nextInt(stories.length);
+
+        if (savedInstanceState != null){
+            story_idx = savedInstanceState.getInt("story_idx");
+        }
+        else {
+            story_idx = new Random().nextInt(stories.length);
+        }
         InputStream stream = context.getResources().openRawResource(stories[story_idx]);
         story = new Story(stream);
         /* set up all the things the user needs to see */
@@ -41,6 +48,13 @@ public class wordscreen extends Activity
         input.setHint(story.getNextPlaceholder());
         setRemainingWords(story.getPlaceholderRemainingCount());
     }
+
+    @Override
+    protected void onSaveInstanceState(Bundle outState){
+        super.onSaveInstanceState(outState);
+        outState.putInt("story_idx", story_idx);
+    }
+
 
     public void setRemainingWords(int numWords) {
         String display = " word(s) left";
